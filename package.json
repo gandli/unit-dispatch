@@ -1,0 +1,27 @@
+{
+  "name": "vehicle-request-bot",
+  "version": "1.0.0",
+  "description": "简道云用车申请审批聊天机器人",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.62",
+    "@ai-sdk/anthropic": "^0.0.46",
+    "ai": "^3.4.1",
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.9.0",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
+  }
+}
